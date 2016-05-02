@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Sofa;
 use Redirect;
 use Schema;
 use App\Photo;
@@ -35,7 +36,8 @@ class PhotoController extends Controller {
 	 */
 	public function create()
 	{
-	    
+	    $article_all = Sofa::all();
+
 	    
 	    return view('admin.photo.create');
 	}

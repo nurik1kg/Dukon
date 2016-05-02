@@ -38,15 +38,6 @@ class Sofa extends Model {
           'title',
           'price'
     ];
-    
-    public static $country_id = ["2" => "2"];
-    public static $width = ["4" => "4"];
-    public static $heigth = ["4" => "4"];
-    public static $depth = ["4" => "4"];
-    public static $length_b = ["4" => "4"];
-    public static $width_b = ["4" => "4"];
-    public static $bought = ["3" => "3"];
-
 
     public static function boot()
     {

@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Country;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 use Redirect;
 use Schema;
 use App\Sofa;
@@ -37,15 +39,12 @@ class SofaController extends Controller {
 	{
 	    
 	    
-        $country_id = Sofa::$country_id;
-        $width = Sofa::$width;
-        $heigth = Sofa::$heigth;
-        $depth = Sofa::$depth;
-        $length_b = Sofa::$length_b;
-        $width_b = Sofa::$width_b;
-        $bought = Sofa::$bought;
+        $country_all = Country::all();
+		foreach ($country_all as $item) {
+			$country_id[$item -> id] = $item -> title;
 
-	    return view('admin.sofa.create', compact("country_id", "width", "heigth", "depth", "length_b", "width_b", "bought"));
+		}
+	    return view('admin.sofa.create', compact("country_id"));
 	}
 
 	/**
@@ -70,17 +69,14 @@ class SofaController extends Controller {
 	public function edit($id)
 	{
 		$sofa = Sofa::find($id);
-	    
-	    
-        $country_id = Sofa::$country_id;
-        $width = Sofa::$width;
-        $heigth = Sofa::$heigth;
-        $depth = Sofa::$depth;
-        $length_b = Sofa::$length_b;
-        $width_b = Sofa::$width_b;
-        $bought = Sofa::$bought;
 
-		return view('admin.sofa.edit', compact('sofa', "country_id", "width", "heigth", "depth", "length_b", "width_b", "bought"));
+
+		$country_all = Country::all();
+		foreach ($country_all as $item) {
+			$country_id[$item -> id] = $item -> title;
+
+		}
+		return view('admin.sofa.edit', compact('sofa', "country_id"));
 	}
 
 	/**

@@ -13,7 +13,7 @@
           name="viewport"/>
     <meta http-equiv="Content-type"
           content="text/html; charset=utf-8">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all"
           rel="stylesheet"
           type="text/css"/>
