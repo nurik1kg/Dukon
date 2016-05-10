@@ -12,8 +12,7 @@ before_install:
 
 before_script:
   - cp .env.example .env
-  - php artisan key:generate
-  - php artisan make:migrate
+  - composer install
 
 
 script: ./vendor/bin/phpunit
