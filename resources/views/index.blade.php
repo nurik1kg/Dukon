@@ -227,96 +227,40 @@
     </div>
 </div>
 
-
+<!--
 <div class="page-title">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h1 class="text-center">New to PhotoShop?</h1>
+                <h1 class="text-center">Мы сделали мебель доступнее</h1>
             </div>
         </div>
     </div>
 </div>
+-->
+<br>
+<br>
+<div class="container">
+    <div class="row text-center">
+        <div class="col-xs-12">
+            <h2 class="text-center">
+                Мы сделали мебель доступнее
+            </h2>
+        </div>
+    </div>
+</div>
+<hr>
 
 <div class="container">
     <div class="row text-center">
         <div class="col-xs-12">
-            <h2>
-                Choose the best subscription plan to your needs!
+            <h2 class="text-center">
+                Распродажа
             </h2>
         </div>
     </div>
-
-    <div class="row db-padding-btm db-attached" style="margin-top: 20px; margin-bottom: -50px">
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <div class="db-wrapper">
-                <div class="db-pricing-eleven db-bk-color-one">
-                    <div class="price">
-                        <sup>$</sup>99
-                        <small>per month</small>
-                    </div>
-                    <div class="type">
-                        SMALL PLAN
-                    </div>
-                    <ul>
-                        <li><i class="glyphicon glyphicon-camera"></i>up to 10 images per day</li>
-                        <li><i class="glyphicon glyphicon-print"></i>1 account </li>
-                        <li><i class="glyphicon glyphicon-time"></i>1 month subscription </li>
-                    </ul>
-                    <div class="pricing-footer">
-
-                        <a href="#" class="btn db-button-color-square btn-lg">BOOK ORDER</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <div class="db-wrapper">
-                <div class="db-pricing-eleven db-bk-color-two popular">
-                    <div class="price">
-                        <sup>$</sup>159
-                        <small>per month</small>
-                    </div>
-                    <div class="type">
-                        MEDIUM PLAN
-                    </div>
-                    <ul>
-                        <li><i class="glyphicon glyphicon-camera"></i>up to 100 images per day</li>
-                        <li><i class="glyphicon glyphicon-print"></i>up to 10 accounts</li>
-                        <li><i class="glyphicon glyphicon-time"></i>1 month subscription </li>
-                        <li><i class="glyphicon glyphicon-star-empty"></i>best value offer!</li>
-                    </ul>
-                    <div class="pricing-footer">
-
-                        <a href="#" class="btn db-button-color-square btn-lg">BOOK ORDER</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <div class="db-wrapper">
-                <div class="db-pricing-eleven db-bk-color-three">
-                    <div class="price">
-                        <sup>$</sup>799
-                        <small>per month</small>
-                    </div>
-                    <div class="type">
-                        ADVANCED PLAN
-                    </div>
-                    <ul>
-                        <li><i class="glyphicon glyphicon-camera"></i>unlimited number of downloads per day </li>
-                        <li><i class="glyphicon glyphicon-print"></i>up to 25 accounts</li>
-                        <li><i class="glyphicon glyphicon-time"></i>1 month subscription </li>
-                    </ul>
-                    <div class="pricing-footer">
-
-                        <a href="#" class="btn db-button-color-square btn-lg">BOOK ORDER</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
+</div>
+<hr>
 </div>
 
 
@@ -376,7 +320,7 @@
 
     <div class="footer-bottom">
         <div class="container">
-            <p class="pull-left"> Copyright © PhotoShop &amp; Dawid Zagórski 2015. All rights reserved. </p>
+            <p class="pull-left"> Dukon © Бишкек 2016. </p>
             <div class="pull-right">
                 <ul class="nav nav-pills payments">
                     <li><i class="fa fa-cc-visa"></i></li>
