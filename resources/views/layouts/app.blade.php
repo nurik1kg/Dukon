@@ -92,12 +92,12 @@
                             <div class="tab-content">
                                 <div class="tab-pane active" id="men">
                                     <ul class="nav-list list-inline">
-                                        <li><a href="category-nature.html"><img src="images/categories/nature.jpg" alt="Nature" /><span>Все Товары</span></a></li>
-                                        <li><a href="#"><img src="images/categories/lifestyle.jpg" alt="Lifestyle" /><span>Lifestyle</span></a></li>
-                                        <li><a href="#"><img src="images/categories/backgrounds.jpg" alt="Backgrounds" /><span>Backgrounds</span></a></li>
-                                        <li><a href="#"><img src="images/categories/technology.jpg" alt="Technology" /><span>Technology</span></a></li>
-                                        <li><a href="#"><img src="images/categories/food.jpg" alt="Food & Drink" /><span>Food & Drink</span></a></li>
-                                        <li><a href="#"><img src="images/categories/architecture.jpg" alt="Architecture" /><span>Architecture</span></a></li>
+                                        <li><a href="/all"><img src="images/categories/alledited.jpg" alt="Nature" /><span>Все Товары</span></a></li>
+                                        <li><a href="/sofa_armchair"><img src="images/categories/sofa_armcairedited.jpg" alt="Lifestyle" /><span>Диваны и Креслы</span></a></li>
+                                        <li><a href="/cupboard"><img src="images/categories/cupboardedited.jpg" alt="Backgrounds" /><span>Шкафы</span></a></li>
+                                        <li><a href="/bads"><img src="images/categories/badsedited.jpg" alt="Technology" /><span>Кровати</span></a></li>
+                                        <li><a href="/table_chair"><img src="images/categories/table_chairedited.jpg" alt="Architecture" /><span>Столы и Стуля</span></a></li>
+                                        <li><a href="/sale"><img src="images/categories/saleedited.jpg" alt="Architecture" /><span>Распродажа</span></a></li>
                                     </ul>
                                 </div>
                             </div>
