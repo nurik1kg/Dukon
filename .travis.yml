@@ -7,10 +7,15 @@ php:
   - hhvm
   - nightly
 
+before_install:
+  - composer self-update
 
 before_script:
+  - cp .env.example .env
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --dev
+  - php artisan key:generate
+  - php artisan make:migrate
 
 
 script: ./vendor/bin/phpunit
