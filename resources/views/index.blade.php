@@ -20,14 +20,17 @@
                     <img src="images/slider/city-night-2.jpg" alt="City" />
                     <div class="header-text">
                         <div class="col-md-12 text-center">
-                            <h2>
-                                <span>Welcome to <strong>Photo</strong>Shop</span>
-                            </h2>
                             <div class="hidden-xs">
-                                <h3>
-                                    <span>Find the perfect photo that suits you the best!</span>
-                                </h3>
-                                <a class="btn btn-theme btn-lg btn-min-block" href="#"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search among over 6 985 245 images!</a></div>
+                                <!--
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                <a class="btn btn-theme btn-lg btn-min-block" href="#"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Search among over 6 985 245 images!</a>
+                                -->
+                            </div>
                         </div>
                     </div><!-- /header-text -->
                 </div>
@@ -36,14 +39,7 @@
                     <img src="http://lorempixel.com/1920/800/food" alt="food" />
                     <div class="header-text">
                         <div class="col-md-12 text-center">
-                            <h2>
-                                <span style="background: #ff3300">Always in good taste!</span>
-                            </h2>
-                            <div class="hidden-xs">
-                                <h3>
-                                    <span>Fresh &amp; mouthwatering food images...</span>
-                                </h3>
-                                <a class="btn btn-theme btn-lg btn-min-block" href="#">Find out our Food &amp; Drink collection...</a></div>
+
                         </div>
                     </div><!-- /header-text -->
                 </div>
@@ -52,14 +48,7 @@
                     <img src="http://lorempixel.com/1920/800/cats" alt="Cats" />
                     <div class="header-text">
                         <div class="col-md-12 text-center">
-                            <h2>
-                                <span style="background: #cc33ff">Cats are awesome!</span>
-                            </h2>
-                            <div class="hidden-xs">
-                                <h3>
-                                    <span>All the people like cats!</span>
-                                </h3>
-                                <a class="btn btn-theme btn-lg btn-min-block" href="#">Buy something from Cat's Lightbox!</a></div>
+
                         </div>
                     </div><!-- /header-text -->
                 </div>
