@@ -106,65 +106,98 @@
     </div>
 </div>
 <hr>
-<div class="row">
-    <div class="col-md-12" style="margin-bottom: -20px">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" style="margin-bottom: -20px">
 
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail" >
-                <img src="http://lorempixel.com/650/400/nature/4/" class="img-responsive product-list-img" alt="Autumn" />
-                <div class="caption">
-                    <div class="row">
-                        <div class="col-md-7 col-xs-8">
-                            <h3>Autumn</h3>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail" >
+                    <img src="http://lorempixel.com/650/400/nature/4/" class="img-responsive product-list-img" alt="Autumn" />
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-7 col-xs-8">
+                                <h3>Autumn</h3>
+                            </div>
+                            <div class="col-md-5 col-xs-4 price">
+                                <h3 class="text-right">
+                                    <label>$14,99</label>
+                                </h3>
+                            </div>
                         </div>
-                        <div class="col-md-5 col-xs-4 price">
-                            <h3 class="text-right">
-                                <label>$14,99</label>
-                            </h3>
-                        </div>
-                    </div>
-                    <p>Size: 2400x1800 px. Author: PixStock</p>
-                    <div class="row product-buttons">
-                        <div class="col-md-6">
-                            <a href="#" class="btn btn-primary btn-product"><span class="glyphicon glyphicon-zoom-in"></span>
-                                &nbsp;More info
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="#" onclick="simpleCart.add('name=Autumn','price=14.99','image=http://lorempixel.com/65/40/nature/4/');return false;" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span>
-                                &nbsp;Add to cart!
-                            </a>
+                        <p>Size: 2400x1800 px. Author: PixStock</p>
+                        <div class="row product-buttons">
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-primary btn-product"><span class="glyphicon glyphicon-zoom-in"></span>
+                                    &nbsp;More info
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#" onclick="simpleCart.add('name=Autumn','price=14.99','image=http://lorempixel.com/65/40/nature/4/');return false;" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span>
+                                    &nbsp;Add to cart!
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-sm-6 col-md-4">
-            <div class="thumbnail" >
-                <img src="http://lorempixel.com/650/400/cats/1/" class="img-responsive product-list-img" alt="Cat" />
-                <div class="caption">
-                    <div class="row">
-                        <div class="col-md-7 col-xs-8">
-                            <h3>Cat</h3>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail" >
+                    <img src="http://lorempixel.com/650/400/nature/4/" class="img-responsive product-list-img" alt="Autumn" />
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-7 col-xs-8">
+                                <h3>Autumn</h3>
+                            </div>
+                            <div class="col-md-5 col-xs-4 price">
+                                <h3 class="text-right">
+                                    <label>$14,99</label>
+                                </h3>
+                            </div>
                         </div>
-                        <div class="col-md-5 col-xs-4 price">
-                            <h3 class="text-right">
-                                <label>$99,99</label>
-                            </h3>
+                        <p>Size: 2400x1800 px. Author: PixStock</p>
+                        <div class="row product-buttons">
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-primary btn-product"><span class="glyphicon glyphicon-zoom-in"></span>
+                                    &nbsp;More info
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#" onclick="simpleCart.add('name=Autumn','price=14.99','image=http://lorempixel.com/65/40/nature/4/');return false;" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span>
+                                    &nbsp;Add to cart!
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <p>Size: 3555x2444 px. Author: Catwoman</p>
-                    <div class="row product-buttons">
-                        <div class="col-md-6">
-                            <a href="#" class="btn btn-primary btn-product"><span class="glyphicon glyphicon-zoom-in"></span>
-                                &nbsp;More info
-                            </a>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail" >
+                    <img src="http://lorempixel.com/650/400/cats/1/" class="img-responsive product-list-img" alt="Cat" />
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-md-7 col-xs-8">
+                                <h3>Cat</h3>
+                            </div>
+                            <div class="col-md-5 col-xs-4 price">
+                                <h3 class="text-right">
+                                    <label>$99,99</label>
+                                </h3>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                            <a href="#" onclick="simpleCart.add('name=Cat','price=99.99','image=http://lorempixel.com/65/40/cats/1/');return false;" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span>
-                                &nbsp;Add to cart!
-                            </a>
+                        <p>Size: 3555x2444 px. Author: Catwoman</p>
+                        <div class="row product-buttons">
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-primary btn-product"><span class="glyphicon glyphicon-zoom-in"></span>
+                                    &nbsp;More info
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#" onclick="simpleCart.add('name=Cat','price=99.99','image=http://lorempixel.com/65/40/cats/1/');return false;" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span>
+                                    &nbsp;Add to cart!
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
