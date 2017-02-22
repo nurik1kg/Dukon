@@ -33,7 +33,7 @@
 </div><div class="form-group">
     {!! Form::label('country', 'Страна', array('class'=>'col-sm-2 control-label')) !!}
     <div class="col-sm-10">
-        {!! Form::text('country', old('country'), array('class'=>'form-control')) !!}
+        {!! Form::select('country_id', $country_id, old('country_id'), array('class'=>'form-control')) !!}
         
     </div>
 </div><div class="form-group">

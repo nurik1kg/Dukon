@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Country;
 use App\Http\Controllers\Controller;
 use Redirect;
 use Schema;
@@ -35,9 +36,13 @@ class ArmchairController extends Controller {
 	 */
 	public function create()
 	{
-	    
-	    
-	    return view('admin.armchair.create');
+
+		$country_all = Country::all();
+		foreach ($country_all as $item) {
+			$country_id[$item -> id] = $item -> title;
+
+		}
+	    return view('admin.armchair.create',compact("country_id"));
 	}
 
 	/**
